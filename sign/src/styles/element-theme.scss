@@ -1,0 +1,53 @@
+:root {
+  --el-color-primary: var(--sf-color-primary);
+  --el-color-primary-light-3: #7d7de0;
+  --el-color-primary-light-5: #adadeb;
+  --el-color-primary-light-7: #d6d6f5;
+  --el-color-primary-light-8: #e6e6fa;
+  --el-color-primary-light-9: var(--sf-color-primary-soft);
+  --el-color-primary-dark-2: var(--sf-color-primary-hover);
+  --el-color-success: var(--sf-color-accent);
+  --el-color-warning: var(--sf-color-warning);
+  --el-color-danger: var(--sf-color-danger);
+  --el-border-radius-base: var(--sf-radius-control);
+  --el-border-radius-small: var(--sf-radius-sm);
+  --el-bg-color: var(--sf-color-surface);
+  --el-bg-color-page: var(--sf-color-bg);
+  --el-text-color-primary: var(--sf-color-text);
+  --el-text-color-regular: var(--sf-color-text-secondary);
+  --el-text-color-secondary: var(--sf-color-text-muted);
+  --el-border-color: var(--sf-color-border);
+  --el-border-color-light: var(--sf-color-border);
+  --el-fill-color-light: var(--sf-color-surface-subtle);
+  --el-box-shadow-light: var(--sf-shadow-card);
+  --el-font-family: var(--sf-font-sans);
+  --el-component-size: 40px;
+}
+
+.el-button,
+.el-input__wrapper,
+.el-select__wrapper {
+  min-height: 40px;
+  font-weight: 600;
+  transition:
+    border-color var(--sf-motion-fast) var(--sf-ease),
+    box-shadow var(--sf-motion-fast) var(--sf-ease),
+    background-color var(--sf-motion-fast) var(--sf-ease);
+}
+
+.el-button:focus-visible,
+.el-input__wrapper.is-focus,
+.el-select__wrapper.is-focused {
+  box-shadow: var(--sf-focus-ring);
+}
+
+.el-button--primary {
+  border-color: var(--sf-color-primary);
+  background: var(--sf-color-primary);
+}
+
+.el-dialog,
+.el-drawer {
+  --el-dialog-border-radius: var(--sf-radius-card);
+}
+

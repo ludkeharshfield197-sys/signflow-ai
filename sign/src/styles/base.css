@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--sf-color-bg);
+  color: var(--sf-color-text);
+  font-family: var(--sf-font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--sf-color-bg);
+}
+
+button,
+input,
+textarea,
+select {
+  min-width: 0;
+  font: inherit;
+}
+
+button,
+[role="button"],
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-block-start: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--sf-color-primary);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: rgb(91 91 214 / 18%);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.sf-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sf-page {
+  width: min(100%, var(--sf-content-max));
+  margin: 0 auto;
+  padding: var(--sf-space-8);
+}
+
+.sf-panel {
+  min-width: 0;
+  border: 1px solid var(--sf-color-border);
+  border-radius: var(--sf-radius-card);
+  background: var(--sf-color-surface);
+}
+
+.sf-button-reset {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .sf-page {
+    padding: var(--sf-space-4);
+  }
+}
+

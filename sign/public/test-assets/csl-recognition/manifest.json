@@ -1,0 +1,64 @@
+{
+  "model": {
+    "id": 2,
+    "name": "SignFlow CSL 37",
+    "version": "11n-local",
+    "weights": "csl.pt",
+    "classes": 37,
+    "language": "\u4e2d\u56fd\u624b\u8bed\uff08CSL\uff09"
+  },
+  "verification": {
+    "date": "2026-07-29",
+    "endpoint": "/api/v1/detections/jobs/",
+    "preset": "balanced",
+    "confidenceThreshold": 0.45,
+    "iouThreshold": 0.5
+  },
+  "assets": [
+    {
+      "path": "images/time.jpg",
+      "mode": "image",
+      "expectedSentence": "\u65f6\u95f4",
+      "confidence": 0.954189,
+      "jobId": "det_d00b522941b34725b7dab680",
+      "sha256": "22E76E4A7C8D959EA4D382574DAD607C5C87BF9C148C11699721734301FE308E"
+    },
+    {
+      "path": "images/you.jpg",
+      "mode": "image",
+      "expectedSentence": "\u4f60/\u4f60\u7684/\u8fd9\u4e2a",
+      "confidence": 0.925847,
+      "jobId": "det_d242d8f0adb945b8bac8ff3a",
+      "sha256": "F4FA9ABD4F2D9C04E184D3DD58A6622FE4D5BF321DCFB7A7770B6F766DA7A59B"
+    },
+    {
+      "path": "videos/time.mp4",
+      "mode": "video",
+      "expectedSentence": "\u65f6\u95f4",
+      "confidence": 0.946478,
+      "jobId": "det_2f96dddea6e8434aaefa56b8",
+      "sha256": "948A62440F7AC5A964E63289E656112F49EB46867D2BB3E83B5126EDBE1794D5"
+    },
+    {
+      "path": "videos/you.mp4",
+      "mode": "video",
+      "expectedSentence": "\u4f60/\u4f60\u7684/\u8fd9\u4e2a",
+      "confidence": 0.919599,
+      "jobId": "det_29812dc3eb074959a70f3bca",
+      "sha256": "5CB5438F2418457EC5EA8CB4668E85A4E8813177E34B22DFC6FF0C08FFEE7384"
+    },
+    {
+      "path": "videos/time-you.mp4",
+      "mode": "video",
+      "expectedSentence": "\u65f6\u95f4 \u4f60/\u4f60\u7684/\u8fd9\u4e2a",
+      "confidence": 0.932817,
+      "jobId": "det_72f008f917224dcda2984d71",
+      "sha256": "27C39F2293308A7B10DD548074829875F052DF79BA33D6584D9FBE38E7B4E515"
+    }
+  ],
+  "limitations": [
+    "The two positive gestures come from the locally available validation subset.",
+    "The original complete 37-class data37_sign dataset is not present in this workspace.",
+    "These samples verify the product inference path; they are not a full accuracy evaluation."
+  ]
+}

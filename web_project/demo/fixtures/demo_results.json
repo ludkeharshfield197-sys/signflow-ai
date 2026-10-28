@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "product": "SignFlow AI",
+  "dataKind": "demo",
+  "authorization": "AI 生成授权素材，仅限 SignFlow AI 产品演示",
+  "trainingUse": false,
+  "model": {
+    "id": "signflow-base-2.1",
+    "name": "SignFlow Base",
+    "version": "2.1"
+  },
+  "samples": [
+    {
+      "id": "official-hello-01",
+      "mode": "image",
+      "name": "日常问候",
+      "sentence": "你好，很高兴认识你。",
+      "labels": ["你好", "很高兴", "认识", "你"],
+      "expectedUiDuration": "2–4 秒",
+      "provenance": "原创 AI 生成图像，无真实人物身份数据"
+    },
+    {
+      "id": "official-help-02",
+      "mode": "video",
+      "name": "公共服务求助",
+      "sentence": "您好，我需要服务台帮助。",
+      "labels": ["您好", "需要", "服务台", "帮助"],
+      "expectedUiDuration": "3–5 秒",
+      "provenance": "原创 AI 生成图像，以静态关键帧替代视频用于流程演示"
+    },
+    {
+      "id": "official-class-03",
+      "mode": "live",
+      "name": "课堂交流",
+      "sentence": "老师，我想回答这个问题。",
+      "labels": ["老师", "我", "回答", "问题"],
+      "expectedUiDuration": "3–5 秒",
+      "provenance": "原创 AI 生成图像，以预录关键帧替代摄像头用于稳定演示"
+    }
+  ],
+  "disclaimer": "固定结果用于演示产品状态与结果闭环，不作为模型准确率、手语语义真值或线上业务规模证明。"
+}

@@ -1,0 +1,75 @@
+{
+  "video": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\SignFlow-AI-competition-full-demo-2026-08-25.mp4",
+  "sha256": "c444f589073cc194c6eb4f3dceeece9aaeaba8a4f9f430c853405c81cdc67728",
+  "sizeBytes": 78604673,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24.0,
+  "frameCount": 6553,
+  "durationSeconds": 273.04,
+  "decodeSamples": [
+    {
+      "second": 1,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-001s.png",
+      "mean": 42.57,
+      "stddev": 41.11
+    },
+    {
+      "second": 15,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-015s.png",
+      "mean": 235.74,
+      "stddev": 45.36
+    },
+    {
+      "second": 55,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-055s.png",
+      "mean": 241.87,
+      "stddev": 42.35
+    },
+    {
+      "second": 110,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-110s.png",
+      "mean": 184.62,
+      "stddev": 103.12
+    },
+    {
+      "second": 140,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-140s.png",
+      "mean": 241.41,
+      "stddev": 43.08
+    },
+    {
+      "second": 175,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-175s.png",
+      "mean": 208.39,
+      "stddev": 87.92
+    },
+    {
+      "second": 220,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-220s.png",
+      "mean": 233.98,
+      "stddev": 34.16
+    },
+    {
+      "second": 245,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-245s.png",
+      "mean": 224.28,
+      "stddev": 56.27
+    },
+    {
+      "second": 268,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-268s.png",
+      "mean": 234.65,
+      "stddev": 33.19
+    },
+    {
+      "second": 272,
+      "file": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\verification-frames\\sample-272s.png",
+      "mean": 43.37,
+      "stddev": 40.2
+    }
+  ],
+  "result": "passed"
+}

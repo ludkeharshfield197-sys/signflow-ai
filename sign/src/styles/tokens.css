@@ -1,0 +1,78 @@
+:root {
+  color-scheme: light;
+  --sf-color-primary: #5b5bd6;
+  --sf-color-primary-hover: #4747c6;
+  --sf-color-primary-active: #3e3eaf;
+  --sf-color-primary-soft: #eeeeff;
+  --sf-color-accent: #0e9384;
+  --sf-color-accent-hover: #08796d;
+  --sf-color-accent-soft: #e8f7f4;
+  --sf-color-bg: #f7f9fc;
+  --sf-color-surface: #ffffff;
+  --sf-color-surface-subtle: #f9fafb;
+  --sf-color-canvas: #0b1220;
+  --sf-color-text: #182230;
+  --sf-color-text-secondary: #344054;
+  --sf-color-text-muted: #667085;
+  --sf-color-text-disabled: #98a2b3;
+  --sf-color-border: #e6eaf2;
+  --sf-color-border-strong: #d0d5dd;
+  --sf-color-danger: #d92d20;
+  --sf-color-danger-soft: #fef3f2;
+  --sf-color-warning: #dc6803;
+  --sf-color-warning-soft: #fff7ed;
+  --sf-color-info: #2563eb;
+  --sf-color-info-soft: #eff6ff;
+
+  --sf-font-sans: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --sf-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --sf-text-xs: 12px;
+  --sf-text-sm: 14px;
+  --sf-text-md: 16px;
+  --sf-text-lg: 18px;
+  --sf-text-xl: 20px;
+  --sf-text-2xl: 24px;
+  --sf-text-3xl: clamp(28px, 3vw, 40px);
+  --sf-text-display: clamp(40px, 5.2vw, 68px);
+
+  --sf-radius-sm: 8px;
+  --sf-radius-control: 10px;
+  --sf-radius-card: 16px;
+  --sf-radius-round: 999px;
+
+  --sf-shadow-xs: 0 1px 2px rgb(15 23 42 / 5%);
+  --sf-shadow-card: 0 8px 32px rgb(15 23 42 / 8%);
+  --sf-shadow-overlay: 0 20px 48px rgb(15 23 42 / 18%);
+
+  --sf-space-1: 4px;
+  --sf-space-2: 8px;
+  --sf-space-3: 12px;
+  --sf-space-4: 16px;
+  --sf-space-5: 20px;
+  --sf-space-6: 24px;
+  --sf-space-8: 32px;
+  --sf-space-10: 40px;
+  --sf-space-12: 48px;
+  --sf-space-16: 64px;
+  --sf-space-20: 80px;
+  --sf-space-24: 96px;
+
+  --sf-sidebar-width: 232px;
+  --sf-sidebar-collapsed-width: 76px;
+  --sf-header-height: 64px;
+  --sf-content-max: 1440px;
+  --sf-focus-ring: 0 0 0 3px rgb(91 91 214 / 20%);
+  --sf-motion-fast: 150ms;
+  --sf-motion-base: 200ms;
+  --sf-motion-slow: 240ms;
+  --sf-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --sf-motion-fast: 1ms;
+    --sf-motion-base: 1ms;
+    --sf-motion-slow: 1ms;
+  }
+}
+

@@ -1,0 +1,45 @@
+{
+  "name": "SignFlow AI",
+  "appid": "__UNI__1E57A34",
+  "description": "SignFlow AI 手语识别移动端",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "compilerVersion": 3,
+    "modules": {
+      "Camera": {},
+      "VideoPlayer": {}
+    },
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\" />",
+          "<uses-permission android:name=\"android.permission.CAMERA\" />",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />"
+        ]
+      },
+      "ios": {}
+    }
+  },
+  "mp-weixin": {
+    "appid": "wx6e8a52e191d39752",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.camera": {
+        "desc": "用于采集手语画面并完成实时识别"
+      }
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "vueVersion": "3"
+}

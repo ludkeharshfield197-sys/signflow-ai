@@ -1,0 +1,19 @@
+FROM node:22-alpine AS build
+
+WORKDIR /workspace/sign
+RUN corepack enable
+
+COPY sign/package.json sign/pnpm-lock.yaml sign/pnpm-workspace.yaml ./
+RUN pnpm install --frozen-lockfile
+
+COPY sign/ ./
+ARG VITE_API_BASE_URL=
+ARG VITE_CAMERA_WS_ORIGIN=
+ENV VITE_API_BASE_URL=${VITE_API_BASE_URL}
+ENV VITE_CAMERA_WS_ORIGIN=${VITE_CAMERA_WS_ORIGIN}
+RUN pnpm run build
+
+FROM alpine:3.21 AS artifact
+WORKDIR /artifact
+COPY --from=build /workspace/sign/dist/ ./
+CMD ["sh", "-c", "cp -a /artifact/. /output/"]

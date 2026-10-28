@@ -1,0 +1,215 @@
+{
+  "title": "无界手语 SignFlow AI 完整功能演示",
+  "generatedAt": "2026-08-25",
+  "output": "E:\\Users\\11430\\PycharmProjects\\sign-yolo\\docs\\demo-video\\SignFlow-AI-competition-full-demo-2026-08-25.mp4",
+  "codec": "H.264/AVC (avc1)",
+  "resolution": "1280x720",
+  "fps": 24.0,
+  "frameCount": 6553,
+  "durationSeconds": 273.04,
+  "silent": true,
+  "selectedRanges": [
+    {
+      "source": "desktop",
+      "start": 0,
+      "end": 92,
+      "label": "多场景产品导览"
+    },
+    {
+      "source": "desktop",
+      "start": 126,
+      "end": 288,
+      "label": "识别结果与沟通闭环"
+    },
+    {
+      "source": "desktop",
+      "start": 289,
+      "end": 314,
+      "label": "安全登录"
+    },
+    {
+      "source": "desktop",
+      "start": 340,
+      "end": 454,
+      "label": "运营概览与输入配置"
+    },
+    {
+      "source": "desktop",
+      "start": 535,
+      "end": 551,
+      "label": "ASL 真实图片结果"
+    },
+    {
+      "source": "desktop",
+      "start": 674,
+      "end": 817,
+      "label": "实时样例与结果中心"
+    },
+    {
+      "source": "desktop",
+      "start": 901,
+      "end": 1050,
+      "label": "CSL 真实图片、双方确认与版本对比"
+    },
+    {
+      "source": "desktop",
+      "start": 1051,
+      "end": 1203,
+      "label": "真实指标、CSL/ASL 评测卡与能力边界"
+    },
+    {
+      "source": "desktop",
+      "start": 1204,
+      "end": 1525,
+      "label": "账户安全、管理后台、官网与隐私页面"
+    },
+    {
+      "source": "mobile",
+      "start": 0,
+      "end": 119,
+      "label": "登录、运营首页与三种输入模式"
+    },
+    {
+      "source": "mobile",
+      "start": 156,
+      "end": 303,
+      "label": "真实 CSL 推理、追溯与双方确认"
+    },
+    {
+      "source": "mobile",
+      "start": 304,
+      "end": 391,
+      "label": "记录筛选、服务设置与无障碍模式"
+    }
+  ],
+  "excludedDesktopRanges": [
+    [
+      93,
+      125
+    ],
+    [
+      315,
+      339
+    ],
+    [
+      455,
+      534
+    ],
+    [
+      552,
+      673
+    ],
+    [
+      818,
+      900
+    ]
+  ],
+  "excludedMobileRanges": [
+    [
+      120,
+      155
+    ]
+  ],
+  "timeline": [
+    {
+      "label": "片头",
+      "startSeconds": 0.0,
+      "endSeconds": 3.0
+    },
+    {
+      "label": "章节 01：产品导览与官方样例",
+      "startSeconds": 3.0,
+      "endSeconds": 4.71
+    },
+    {
+      "label": "多场景产品导览",
+      "startSeconds": 4.71,
+      "endSeconds": 20.21
+    },
+    {
+      "label": "识别结果与沟通闭环",
+      "startSeconds": 20.21,
+      "endSeconds": 47.38
+    },
+    {
+      "label": "章节 02：Web 工作台与双模型识别",
+      "startSeconds": 47.38,
+      "endSeconds": 49.08
+    },
+    {
+      "label": "安全登录",
+      "startSeconds": 49.08,
+      "endSeconds": 53.42
+    },
+    {
+      "label": "运营概览与输入配置",
+      "startSeconds": 53.42,
+      "endSeconds": 72.58
+    },
+    {
+      "label": "ASL 真实图片结果",
+      "startSeconds": 72.58,
+      "endSeconds": 75.42
+    },
+    {
+      "label": "实时样例与结果中心",
+      "startSeconds": 75.42,
+      "endSeconds": 99.42
+    },
+    {
+      "label": "章节 03：可信结果与版本追溯",
+      "startSeconds": 99.42,
+      "endSeconds": 101.12
+    },
+    {
+      "label": "CSL 真实图片、双方确认与版本对比",
+      "startSeconds": 101.12,
+      "endSeconds": 126.12
+    },
+    {
+      "label": "章节 04：数据洞察与模型评测",
+      "startSeconds": 126.12,
+      "endSeconds": 127.83
+    },
+    {
+      "label": "真实指标、CSL/ASL 评测卡与能力边界",
+      "startSeconds": 127.83,
+      "endSeconds": 153.33
+    },
+    {
+      "label": "章节 05：隐私、治理与系统运行",
+      "startSeconds": 153.33,
+      "endSeconds": 155.04
+    },
+    {
+      "label": "账户安全、管理后台、官网与隐私页面",
+      "startSeconds": 155.04,
+      "endSeconds": 208.71
+    },
+    {
+      "label": "章节 06：手机端 H5 与小程序体验",
+      "startSeconds": 208.71,
+      "endSeconds": 210.71
+    },
+    {
+      "label": "登录、运营首页与三种输入模式",
+      "startSeconds": 210.71,
+      "endSeconds": 230.71
+    },
+    {
+      "label": "真实 CSL 推理、追溯与双方确认",
+      "startSeconds": 230.71,
+      "endSeconds": 255.38
+    },
+    {
+      "label": "记录筛选、服务设置与无障碍模式",
+      "startSeconds": 255.38,
+      "endSeconds": 270.04
+    },
+    {
+      "label": "片尾",
+      "startSeconds": 270.04,
+      "endSeconds": 273.04
+    }
+  ]
+}

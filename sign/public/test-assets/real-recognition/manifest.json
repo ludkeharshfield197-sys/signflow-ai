@@ -1,0 +1,92 @@
+{
+  "title": "SignFlow AI 真实识别测试素材",
+  "generatedAt": "2026-07-29T15:13:00+08:00",
+  "model": {
+    "id": 1,
+    "name": "SignFlow Base",
+    "version": "2.1-local",
+    "weights": "ASl-v8.pt",
+    "scope": "80 类 ASL 餐饮与服务场景词汇"
+  },
+  "inference": {
+    "confidenceThreshold": 0.45,
+    "iouThreshold": 0.5,
+    "preset": "balanced",
+    "verification": "全部文件均通过本地 HTTP API 与真实模型推理验证"
+  },
+  "positiveAssets": [
+    {
+      "path": "images/bread.jpg",
+      "type": "image",
+      "expectedLabels": ["bread"],
+      "confidence": 0.934615,
+      "jobId": "det_d3c2c0dbd86b4a0f9e106e2b"
+    },
+    {
+      "path": "images/hello.jpg",
+      "type": "image",
+      "expectedLabels": ["hello"],
+      "confidence": 0.879632,
+      "jobId": "det_cb37e5e12f824dd78021b87e"
+    },
+    {
+      "path": "images/milk.jpg",
+      "type": "image",
+      "expectedLabels": ["milk"],
+      "confidence": 0.800146,
+      "jobId": "det_cb6cccaceb734639a7f03403"
+    },
+    {
+      "path": "images/thank-you.jpg",
+      "type": "image",
+      "expectedLabels": ["thank-you"],
+      "confidence": 0.916964,
+      "jobId": "det_c4bcfb887d1c401e94b83c3e"
+    },
+    {
+      "path": "images/water.jpg",
+      "type": "image",
+      "expectedLabels": ["water"],
+      "confidence": 0.854985,
+      "jobId": "det_186ed333fbe342cba2066020"
+    },
+    {
+      "path": "videos/hello-thank-you.mp4",
+      "type": "video",
+      "expectedLabels": ["hello", "thank-you"],
+      "confidence": 0.887802,
+      "jobId": "det_2da460ae5da143ed97ad09b3"
+    },
+    {
+      "path": "videos/hello.mp4",
+      "type": "video",
+      "expectedLabels": ["hello"],
+      "confidence": 0.878907,
+      "jobId": "det_8522a41750f940cf994b335d"
+    },
+    {
+      "path": "videos/milk.mp4",
+      "type": "video",
+      "expectedLabels": ["milk"],
+      "confidence": 0.798652,
+      "jobId": "det_8abb1c86e76647209f6a7527"
+    },
+    {
+      "path": "videos/thank-you.mp4",
+      "type": "video",
+      "expectedLabels": ["thank-you"],
+      "confidence": 0.912514,
+      "jobId": "det_ab8901ebae564afb92e8871a"
+    }
+  ],
+  "negativeAssets": [
+    {
+      "path": "negative/generated-milk-candidate-no-detection.png",
+      "type": "image",
+      "expectedLabels": [],
+      "confidence": null,
+      "jobId": "det_a2c88bc0b3694ae1939f88b8",
+      "note": "AI 生成候选图在标准阈值下未检出，仅用于验证系统不会伪造结果，不作为正样例。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+packages:
+  - .
+
+overrides:
+  "@babel/core": 8.0.1
+  "@intlify/core-base": 9.14.5
+  "@intlify/message-resolver": 9.1.11
+  adm-zip: 0.6.0
+  esbuild: 0.25.12
+  jpeg-js: 0.4.4
+  phin: 3.7.1
+  postcss: 8.5.25
+  rollup: 4.62.3
+  vite: 6.4.3
+  ws: 8.21.1
+
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAgeExclude:
+  - postcss@8.5.25

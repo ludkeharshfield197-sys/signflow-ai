@@ -1,0 +1,46 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Frontend
+sign/node_modules/
+sign/node_modules-pre-redesign/
+sign/dist/
+sign/test-results/
+sign/playwright-report/
+sign/logs/
+sign-app/node_modules/
+sign-app/dist/
+sign-app/unpackage/
+
+# Runtime data and large local artifacts
+.codex-runtime/
+.team-runtime/
+deliverables/
+web_project/media/
+web_project/staticfiles/
+# Model files are intentionally included in this private backup so inference
+# works after cloning. Do not place credentials or user uploads in this folder.
+web_project/model/*
+!web_project/model/*.pt
+web_project/logs/
+web_project/celerybeat-schedule*
+web_project/.demo-credentials
+docs/competition/.qa-*/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
